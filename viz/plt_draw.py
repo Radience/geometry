@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from core import Segment
+from shapes import Polygon
 
 def draw_segment(segment: Segment, color='blue', linewidth=2, label=None):
     x_coords = [segment.start.x, segment.end.x]
@@ -10,6 +11,10 @@ def draw_segment(segment: Segment, color='blue', linewidth=2, label=None):
              label=label)
     plt.plot(segment.start.x, segment.start.y, 'ro', markersize=4)
     plt.plot(segment.end.x, segment.end.y, 'ro', markersize=4)
+
+def draw_polygon(plg: Polygon):
+    for sgm in plg.segments:
+        draw_segment(sgm)
 
 def setup_plot():
     plt.figure(figsize=(8,8))
