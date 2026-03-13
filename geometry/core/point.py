@@ -1,4 +1,4 @@
-from constants import EPSILON
+from ..constants import EPSILON
 
 class Point:
     def __init__(self, x: float, y: float):

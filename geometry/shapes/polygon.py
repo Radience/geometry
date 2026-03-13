@@ -1,12 +1,11 @@
-from core import Point, Segment
+from ..core import Point, Segment
 
 class Polygon:
     def __init__(self, points: List[Point]):
         self.points = points
-        self.segments = self.get_segments(points)
+        self.segments = self.__get_segments(points)
 
-    @staticmethod
-    def get_segments(points: List[Point]) -> List[Segment]:
+    def __get_segments(self, points: List[Point]) -> List[Segment]:
         segments = []
         n = len(points)
         for i in range(n): # 0,1,2,...

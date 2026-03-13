@@ -1,24 +1,16 @@
-from core import Point, Segment
-from shapes import Polygon
-from viz.plt_draw import draw_segment, setup_plot, show_plot, draw_polygon
+from geometry.core import Point, Segment
+from geometry.shapes import Polygon
+from .plt_draw import draw_segment, setup_plot, show_plot, draw_polygon
 
-p1 = Point(1.5,1)
-p2 = Point(1,2)
-p3 = Point(1.5,3)
-p4 = Point(2.5,3)
-p5 = Point(3,2)
-p6 = Point(2.5,1)
-p_s_1 = Point(1,1)
-p_s_2 = Point(4,4)
+p1 = Point(1.3,1)
+p2 = Point(1.3,3.7)
+p3 = Point(4.5,2.7)
 
 setup_plot()
 
-#segment
-sgm = Segment(p_s_1, p_s_2)
-draw_segment(sgm, color='red')
-
 #polygon
-plg = Polygon([p1,p2,p3,p4,p5,p6])
+plg = Polygon([p1,p2,p3])
 draw_polygon(plg)
 
+print(p1.distance_to(p3))
 show_plot()

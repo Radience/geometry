@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
-from core import Segment
-from shapes import Polygon
+from geometry.core import Segment
+from geometry.shapes import Polygon
 
 def draw_segment(segment: Segment, color='blue', linewidth=2, label=None):
     x_coords = [segment.start.x, segment.end.x]
