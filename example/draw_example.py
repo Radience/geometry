@@ -187,6 +187,22 @@ from .plt_draw import draw_segment, setup_plot, show_plot, draw_polygon
 #     Point(-1.100000000,  0.200000000),
 #     Point(-0.400000000, -1.000000000),
 # ]
+
+# ромб
+# points = [
+#     Point( 0.5,  0),
+#     Point( 0, -1.0),
+#     Point(-0.5, 0),
+#     Point( 0,  1),
+# ]
+
+#Чатгпт прямоугольник
+# points = [
+#     Point( 1.000000000,  0.500000000),
+#     Point( 1.000000000, -0.500000000),
+#     Point(-1.000000000, -0.500000000),
+#     Point(-1.000000000,  0.500000000),
+# ]
 setup_plot()
 
 #polygon
