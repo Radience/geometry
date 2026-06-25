@@ -24,15 +24,14 @@ def convex_regular_validation(polygon: Polygon):
             p_n = points[n]
             m_n_x = (p_n.x + points[(n+1) % len(points)].x) / 2
             m_n_y = (p_n.y + points[(n+1) % len(points)].y) / 2
-            m_n = Point(m_n_x, m_n_y)
             p2 = points[(n + len(points)//2 + 1) % len(points)]
             p3 = points[(n + len(points)//2) % len(points)]
             p4 = points[(n + len(points)//2 - 1) % len(points)]
             
-            dm_x1 = (m_n.x - p2.x)
-            dm_x2 = (m_n.x - p3.x)
-            dm_y1 = (m_n.y - p2.y)
-            dm_y2 = (m_n.y - p3.y)
+            dm_x1 = (m_n_x - p2.x)
+            dm_x2 = (m_n_x - p3.x)
+            dm_y1 = (m_n_y - p2.y)
+            dm_y2 = (m_n_y - p3.y)
             lm1 = (dm_x1**2 + dm_y1**2)
             lm2 = (dm_x2**2 + dm_y2**2)
 
