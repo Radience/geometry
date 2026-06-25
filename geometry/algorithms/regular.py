@@ -17,7 +17,7 @@ def convex_regular_validation(polygon: Polygon):
             l1 = (dx1**2 + dy1**2)
             l2 = (dx2**2 + dy2**2)
             if abs(l1 - l2) / max(abs(l1), abs(l2), 1.0) > EPSILON:
-                print(f"P{n}, P{(n + len(points)//2) % len(points)}, P{(n + len(points)//2 + 1) % len(points)}, L1={l1}, L2={l2}")
+                #print(f"P{n}, P{(n + len(points)//2) % len(points)}, P{(n + len(points)//2 + 1) % len(points)}, L1={l1}, L2={l2}")
                 return False
     else:
         for n in range(len(points)):
@@ -44,10 +44,10 @@ def convex_regular_validation(polygon: Polygon):
             l2 = (dx2**2 + dy2**2)
 
             if abs(l1 - l2) / max(abs(l1), abs(l2), 1.0) > EPSILON:
-                print(f"P{n}, P{(n + len(points)//2 + 1) % len(points)}, P{(n + len(points)//2 - 1) % len(points)}, L1={l1}, L2={l2}")
+                #print(f"P{n}, P{(n + len(points)//2 + 1) % len(points)}, P{(n + len(points)//2 - 1) % len(points)}, L1={l1}, L2={l2}")
                 return False
             
             if abs(lm1 - lm2) / max(abs(lm1), abs(lm2), 1.0) > EPSILON:
-                print(f"P{n}, M{m_n}, P{(n + len(points)//2 + 1) % len(points)}, P{(n + len(points)//2) % len(points)}, Lm1={lm1}, Lm2={lm2}")
+                #print(f"P{n}, M{m_n}, P{(n + len(points)//2 + 1) % len(points)}, P{(n + len(points)//2) % len(points)}, Lm1={lm1}, Lm2={lm2}")
                 return False
     return True
