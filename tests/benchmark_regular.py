@@ -27,11 +27,12 @@ def is_regular_polygon_classic(polygon: Polygon, tol=1e-6) -> bool:
     return True
 
 # Генерация полигона для теста
-N = 1000000 #для четного количества углов в мн-к скорость почти 1 к 1. А для нечетного случая в 2 раза быстрее
+N = 1000000 
 radius = 10.0
 test_points = [Point(radius * math.cos(2 * math.pi * i / N), 
                      radius * math.sin(2 * math.pi * i / N)) for i in range(N)]
 poly = Polygon(test_points)
+poly.points[0].x += 0.001
 
 # Замер твоего метода
 start = time.perf_counter()
@@ -47,3 +48,4 @@ print(f"Результаты для N={N} вершин:")
 print(f"1. Мой метод (дистанции): {end1:.6f} сек.")
 print(f"2. Классический метод (углы): {end2:.6f} сек.")
 print(f"Ускорение метода: {end2/end1:.2f} раз.")
+print(f"результаты: {res1}, {res2}]")

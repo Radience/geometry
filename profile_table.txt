@@ -1,0 +1,173 @@
+Thu Jun 25 05:32:58 2026    profile_results.prof
+
+         26003410 function calls (26003333 primitive calls) in 5.740 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     10/1    0.000    0.000    5.740    5.740 {built-in method builtins.exec}
+        1    0.616    0.616    5.740    5.740 tests/benchmark_regular.py:1(<module>)
+        1    0.359    0.359    2.559    2.559 tests/benchmark_regular.py:20(is_regular_polygon_classic)
+  1000000    0.935    0.000    1.942    0.000 tests/benchmark_regular.py:11(angle)
+        1    1.498    1.498    1.912    1.912 D:\projects\geometry\geometry\algorithms\regular.py:5(convex_regular_validation)
+  4000000    0.528    0.000    0.976    0.000 tests/benchmark_regular.py:8(distance)
+        1    0.000    0.000    0.457    0.457 D:\projects\geometry\geometry\shapes\polygon.py:4(__init__)
+        1    0.346    0.346    0.457    0.457 D:\projects\geometry\geometry\shapes\polygon.py:8(__get_segments)
+  4000000    0.448    0.000    0.448    0.000 {built-in method math.hypot}
+  6000000    0.291    0.000    0.291    0.000 {built-in method builtins.abs}
+  3000020    0.196    0.000    0.196    0.000 {built-in method builtins.max}
+  1000000    0.086    0.000    0.086    0.000 {built-in method math.acos}
+  1000000    0.075    0.000    0.075    0.000 {built-in method math.sin}
+  1000002    0.074    0.000    0.074    0.000 {built-in method builtins.min}
+  1000000    0.073    0.000    0.073    0.000 {built-in method math.cos}
+  1000140    0.064    0.000    0.064    0.000 {method 'append' of 'list' objects}
+  1000000    0.056    0.000    0.056    0.000 {built-in method math.degrees}
+  1000000    0.046    0.000    0.046    0.000 D:\projects\geometry\geometry\core\segment.py:4(__init__)
+  1000000    0.045    0.000    0.045    0.000 D:\projects\geometry\geometry\core\point.py:4(__init__)
+     12/3    0.000    0.000    0.004    0.001 <frozen importlib._bootstrap>:1360(_find_and_load)
+     12/3    0.000    0.000    0.004    0.001 <frozen importlib._bootstrap>:1308(_find_and_load_unlocked)
+     30/5    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap>:483(_call_with_frames_removed)
+      9/1    0.000    0.000    0.003    0.003 {built-in method builtins.__import__}
+     11/3    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap>:914(_load_unlocked)
+      9/2    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap_external>:753(exec_module)
+        1    0.000    0.000    0.003    0.003 D:\projects\geometry\geometry\__init__.py:1(<module>)
+       11    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1243(_find_spec)
+       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1284(find_spec)
+       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1255(_get_spec)
+        9    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:826(get_code)
+       11    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1357(find_spec)
+        9    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:947(get_data)
+       51    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:145(_path_stat)
+       51    0.001    0.000    0.001    0.000 {built-in method nt.stat}
+        1    0.000    0.000    0.001    0.001 D:\projects\geometry\geometry\core\__init__.py:1(<module>)
+        1    0.000    0.000    0.001    0.001 D:\projects\geometry\geometry\shapes\__init__.py:1(<module>)
+        9    0.001    0.000    0.001    0.000 {built-in method _io.open_code}
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:155(_path_is_mode_type)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:164(_path_isfile)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1233(_path_importer_cache)
+       65    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:101(_path_join)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1220(_path_hooks)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:809(module_from_spec)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:239(cache_from_source)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(acquire)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:736(_init_module_attrs)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1449(path_hook_for_FileFinder)
+        9    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:966(path_stats)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:419(__enter__)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1408(_fill_cache)
+        5    0.000    0.000    0.000    0.000 <frozen zipimport>:67(__init__)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:635(cached)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:369(_get_cached)
+        5    0.000    0.000    0.000    0.000 {built-in method nt.listdir}
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:466(_lock_unlock_module)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:169(_path_isdir)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:162(__enter__)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:509(_compile_bytecode)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1331(__init__)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:124(setdefault)
+        9    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1352(_get_spec)
+        9    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:190(_path_abspath)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(release)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:137(_path_split)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:560(spec_from_file_location)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:429(_get_module_lock)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:177(_path_isabs)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:423(__exit__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:424(_classify_pyc)
+      253    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+      242    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      213    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 D:\projects\geometry\geometry\core\point.py:1(<module>)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__new__)
+      171    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:992(create_module)
+        1    0.000    0.000    0.000    0.000 D:\projects\geometry\geometry\core\segment.py:1(<module>)
+       27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:89(_unpack_uint32)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:985(find_spec)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:457(_validate_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.create_builtin}
+       54    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:139(<genexpr>)
+        1    0.000    0.000    0.000    0.000 D:\projects\geometry\geometry\shapes\polygon.py:1(<module>)
+       16    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       64    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
+       83    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 D:\projects\geometry\geometry\shapes\circle.py:1(<module>)
+     11/9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1401(_handle_fromlist)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:448(cb)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
+       73    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1131(find_spec)
+       14    0.000    0.000    0.000    0.000 {built-in method nt._path_splitroot}
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:648(parent)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+       31    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1229(__exit__)
+       54    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:401(_check_name_wrapper)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(__init__)
+       11    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+       58    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:494(_verbose_message)
+       31    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1225(__enter__)
+       48    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.RLock' objects}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+       38    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 D:\projects\geometry\geometry\algorithms\regular.py:1(<module>)
+       48    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+       49    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       25    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFD6D586D90}
+       36    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       66    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+       66    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1131(__iter__)
+       27    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+       33    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:665(spec_from_loader)
+       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1337(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1096(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1113(_get_parent_path)
+       48    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 D:\projects\geometry\geometry\constants.py:1(<module>)
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       19    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+       24    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+       24    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        9    0.000    0.000    0.000    0.000 {method '__enter__' of '_io._IOBase' objects}
+       18    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       28    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+       27    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1000(exec_module)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1117(_recalculate)
+        4    0.000    0.000    0.000    0.000 {built-in method time.perf_counter}
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:602(__init__)
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
+       11    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       18    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_builtin}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1103(_find_parent_path_names)
+       11    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        9    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:415(__init__)
+        1    0.000    0.000    0.000    0.000 D:\projects\geometry\geometry\core\segment.py:3(Segment)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:504(_requires_builtin_wrapper)
+        1    0.000    0.000    0.000    0.000 D:\projects\geometry\geometry\core\point.py:3(Point)
+        1    0.000    0.000    0.000    0.000 D:\projects\geometry\geometry\shapes\polygon.py:3(Polygon)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:917(__init__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:656(has_location)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:750(create_module)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:942(get_filename)
+        1    0.000    0.000    0.000    0.000 D:\projects\geometry\geometry\shapes\circle.py:3(Circle)
+        1    0.000    0.000    0.000    0.000 {built-in method nt.getcwd}
+        2    0.000    0.000    0.000    0.000 {method 'removeprefix' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1172(exec_module)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1017(is_package)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+
+
