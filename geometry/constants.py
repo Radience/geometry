@@ -1,2 +1,2 @@
-EPSILON = 1e-10
+EPSILON = 1e-8
 INFINITY = float('inf')
